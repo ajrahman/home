@@ -1,0 +1,191 @@
+body, html
+{
+margin:0;
+padding:0;
+font-size:100%;
+text-align:left;
+font-family:"times", serif;
+font-style:normal;
+font-weight:normal;
+line-height:1.3em;
+color:black;
+}
+
+html
+{
+overflow-y: scroll;
+}
+
+body
+{
+background-color:#DDDDDD;
+}
+
+#container
+{
+margin:0 auto;
+padding:0;
+max-width:36em;
+min-height:100%;
+position:relative;
+text-align:left;
+}
+
+#header
+{
+margin:0;
+padding:0.4em 0 0.8em 0;
+position:relative;
+max-width:100%;
+background-color:#333333;
+}
+
+#header_content 
+{
+max-width:36em;
+margin:0 auto;
+color:#CCCCCC;
+}
+
+#header_content p
+{
+margin:0;
+padding:0;
+}
+
+#header_content ul
+{
+margin:0.4em 0 0 0;
+padding:0;
+text-align:center;
+}
+
+#header_content li
+{
+list-style:none;
+margin:auto;
+padding:0 1.2em;
+display:inline;
+font-weight:bold;
+}
+
+#header_content li a
+{
+margin:0;
+padding:0;
+font-weight:bold;
+}
+
+#title
+{
+margin:0;
+padding:0;
+font-weight:bold;
+}
+
+#subtitle
+{
+margin:0;
+padding:0;
+}
+
+#main
+{
+margin:0;
+padding:0;
+}
+
+#main ul
+{
+margin:0.4em 0 0 0;
+padding:0;
+text-align:left;
+}
+
+#main li
+{
+list-style:none;
+margin:auto;
+padding:0 1.2em;
+}
+
+#footer
+{
+margin:2.8em auto 0 auto;
+padding:1.4em 0;
+max-width:100%;
+position:relative;
+bottom:0;
+}
+
+#footer_content
+{
+margin:0 auto;
+max-width:36em;
+font-style:italic;
+text-align:right;
+}
+
+
+/* TEXT STYLES */
+h1 
+{
+font-weight:bold;
+font-size:1.5em;
+margin-top:0.8em;
+margin-bottom:0.4em;
+}
+
+h2 
+{
+font-weight:bold;
+font-size:1.0em;
+margin-top:0em;
+margin-bottom:0.4em;
+text-transform: uppercase;
+}
+
+h3 
+{
+font-weight:bold;
+font-size:1.0em;
+margin-top: 0em;
+margin-bottom: 0.4em;
+}
+
+p 
+{
+font-weight:normal;
+font-size:1.0em;
+margin-top:0em;
+margin-bottom:1.4em;
+text-indent:0em;
+}
+
+dd
+{
+margin:0 1.5em 0.4em 1.5em;
+padding:0;
+color:#444444;
+}
+
+/* PUBLICATIONS LIST */
+#pub
+{
+width:100%;
+list-style:none;
+margin:0;
+padding:0;
+}
+
+#pub li 
+{
+text-indent:-1.5em;
+margin-left:+1.5em;
+}
+
+/* LINKS PROPERTIES */
+a:link {text-decoration:none;color:#2783ff;}
+a:visited {text-decoration:none;color:#ff6500;}
+a:hover {text-decoration:none;}
+a:active {text-decoration:none;}
