@@ -167,8 +167,8 @@ padding:0;
 #pub ul, li 
 {
 list-style-type:none;
-text-indent:-1.5em;
-margin-left:+1.5em;
+text-indent:-1.6em;
+margin:0 0 0.4em +1.6em;
 padding:0;
 }
 
