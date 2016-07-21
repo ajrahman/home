@@ -95,20 +95,6 @@ margin:0;
 padding:0;
 }
 
-#main ul
-{
-margin:0.4em 0 0 0;
-padding:0;
-text-align:left;
-}
-
-#main li
-{
-list-style:none;
-margin:auto;
-padding:0 1.2em;
-}
-
 #footer
 {
 margin:2.8em auto 0 auto;
@@ -178,7 +164,7 @@ margin:0;
 padding:0;
 }
 
-#pub li 
+#pub ul, li 
 {
 text-indent:-1.5em;
 margin-left:+1.5em;
