@@ -24,7 +24,7 @@ background-color:#DDDDDD;
 #container
 {
 margin:0 auto;
-padding:0;
+padding:0 1em 0 1em;
 max-width:36em;
 min-height:100%;
 position:relative;
@@ -44,6 +44,7 @@ background-color:#333333;
 {
 max-width:36em;
 margin:0 auto;
+padding:0 1em 0 1em;
 color:#CCCCCC;
 }
 
