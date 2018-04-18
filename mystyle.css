@@ -8,7 +8,7 @@ font-family:'Roboto', sans-serif;
 font-style:normal;
 font-weight:normal;
 line-height:1.4em;
-color:blue;
+color:black;
 }
 
 html
@@ -37,7 +37,7 @@ margin:0;
 padding:0.4em 0 0.8em 0;
 position:relative;
 max-width:100%;
-background-color:#333333;
+background-color:#334443;
 }
 
 #header_content 
