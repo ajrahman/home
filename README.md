@@ -1,2 +1,2 @@
-# https://adibrahman007.github.io/website
+# https://adibrahman007.github.io/home
 Personal website adapted from Philip D. Hall
