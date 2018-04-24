@@ -27,6 +27,7 @@ margin:0 auto;
 padding:0 1em 0 1em;
 max-width:36em;
 min-height:100%;
+border-bottom: 1px solid gray;
 position:relative;
 text-align:left;
 }
