@@ -53,7 +53,7 @@ color:#7F7F9B;
 {
 margin:0;
 padding:0;
-color:#B2B2C3
+color:#7F7F9B;
 }
 
 #header_content ul
@@ -61,7 +61,6 @@ color:#B2B2C3
 margin:0.4em 0 0 0;
 padding:0;
 text-align:center;
-color:#B2B2C3
 }
 
 #header_content li
@@ -71,7 +70,6 @@ margin:auto;
 padding:0 1.2em;
 display:inline;
 font-weight:bold;
-color:#B2B2C3
 }
 
 #header_content li a
@@ -79,7 +77,6 @@ color:#B2B2C3
 margin:0;
 padding:0;
 font-weight:bold;
-color:#B2B2C3
 }
 
 #title
@@ -108,7 +105,6 @@ padding:1.4em 0;
 max-width:100%;
 position:relative;
 bottom:0;
-color:#B2B2C3
 }
 
 #footer_content
@@ -117,7 +113,6 @@ margin:0 auto;
 max-width:36em;
 font-style:italic;
 text-align:right;
-color:#B2B2C3
 }
 
 
