@@ -38,7 +38,7 @@ padding:0.4em 0 0.8em 0;
 border-bottom: 1px solid gray;
 position:relative;
 max-width:100%;
-background-color:#201d2d;
+background-color:#333333;
 }
 
 #header_content 
@@ -176,6 +176,6 @@ padding:0;
 
 /* LINKS PROPERTIES */
 a:link {text-decoration:none;color:#0c3cce}
-a:visited {text-decoration:none;color:#b2f2a2;}
+a:visited {text-decoration:none;color:#18bc9c;}
 a:hover {text-decoration:underline;}
 a:active {text-decoration:none;}
