@@ -175,7 +175,7 @@ padding:0;
 }
 
 /* LINKS PROPERTIES */
-a:link {text-decoration:color::#c40d0d;}
+a:link {text-decoration:color:#c40d0d;}
 a:visited {text-decoration:color:#15a589;}
 a:hover {text-decoration:underline;}
 a:active {text-decoration:none;}
