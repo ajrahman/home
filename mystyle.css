@@ -175,8 +175,8 @@ padding:0;
 }
 
 /* LINKS PROPERTIES */
-a:link {text-decoration:none;color:#15a589;}
-a:visited {text-decoration:none;color:#18bc9c;}
+a:link {text-decoration:none;color:#13967c;}
+a:visited {text-decoration:none;color:#15a88b;}
 a:hover {text-decoration:underline;}
 a:active {text-decoration:none;}
 
