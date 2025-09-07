@@ -1,182 +1,157 @@
-body, html
-{
-margin:0;
-padding:0;
-font-size:100%;
-text-align:left;
-font-family:'Roboto', sans-serif;
-font-style:normal;
-font-weight:normal;
-line-height:1.4em;
-color:black;
+/* === BASE STYLES === */
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #111;
+  background-color: #fafafa;
 }
 
-html
-{
-overflow-y: scroll;
+/* Container */
+#container {
+  margin: 0 auto;
+  padding: 0 1em;
+  max-width: 42em;  /* keeps text readable on desktop */
+  text-align: left;
 }
 
-body
-{
-background-color:#fcfcfc;
+/* === HEADER === */
+#header {
+  background-color: #333;
+  color: #d8d8d8;
+  padding: 0.6em 0 1em 0;
+  border-bottom: 1px solid #444;
 }
 
-#container
-{
-margin:0 auto;
-padding:0 1em 0 1em;
-max-width:36em;
-min-height:100%;
-position:relative;
-text-align:left;
+#header_content {
+  margin: 0 auto;
+  max-width: 42em;
+  padding: 0 1em;
+  text-align: center;
 }
 
-#header
-{
-margin:0;
-padding:0.4em 0 0.8em 0;
-border-bottom: 1px solid gray;
-position:relative;
-max-width:100%;
-background-color:#333333;
+#title {
+  font-weight: bold;
+  font-size: 1.6rem;
 }
 
-#header_content 
-{
-max-width:36em;
-margin:0 auto;
-padding:0 1em 0 1em;
-color:#d8d8d8;
+/* Navigation */
+#header_content ul {
+  margin: 0.6em 0 0 0;
+  padding: 0;
 }
 
-#header_content p
-{
-margin:0;
-padding:0;
-color:#d8d8d8;
+#header_content li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 1.2em;
+  font-weight: bold;
 }
 
-#header_content ul
-{
-margin:0.4em 0 0 0;
-padding:0;
-text-align:center;
+#header_content li a {
+  color: #d8d8d8;
+  text-decoration: none;
 }
 
-#header_content li
-{
-list-style:none;
-margin:auto;
-padding:0 1.2em;
-display:inline;
-font-weight:bold;
+#header_content li a:hover {
+  text-decoration: underline;
 }
 
-#header_content li a
-{
-margin:0;
-padding:0;
-font-weight:bold;
+/* === MAIN === */
+#main {
+  margin: 0;
+  padding: 0;
 }
 
-#title
-{
-margin:0;
-padding:0;
-font-weight:bold;
+/* Typography */
+h1 {
+  font-weight: bold;
+  font-size: 1.8rem;
+  margin: 1em 0 0.6em;
 }
 
-#subtitle
-{
-margin:0;
-padding:0;
+h2 {
+  font-weight: bold;
+  font-size: 1.3rem;
+  margin: 1.2em 0 0.6em;
+  text-transform: uppercase;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 0.2em;
 }
 
-#main
-{
-margin:0;
-padding:0;
+h3 {
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin: 1em 0 0.4em;
 }
 
-#footer
-{
-margin:2.8em auto 0 auto;
-padding:1.4em 0;
-max-width:100%;
-position:relative;
-bottom:0;
+p {
+  font-size: 1rem;
+  margin: 0 0 1.4em;
 }
 
-#footer_content
-{
-margin:0 auto;
-max-width:36em;
-font-style:italic;
-text-align:right;
+a:link, a:visited {
+  color: #00695c;
+  text-decoration: none;
 }
 
-/* TEXT STYLES */
-h1 
-{
-font-weight:bold;
-font-size:1.5em;
-margin-top:0.8em;
-margin-bottom:0.4em;
+a:hover {
+  color: #004d40;
+  text-decoration: underline;
 }
 
-h2 
-{
-font-weight:bold;
-font-size:1.0em;
-margin-top:0em;
-margin-bottom:0.4em;
-text-transform: uppercase;
+/* === FOOTER === */
+#footer {
+  margin-top: 3em;
+  padding: 1.5em 0;
+  border-top: 1px solid #ccc;
+  color: #555;
+  font-size: 0.9rem;
+  text-align: right;
+  font-style: italic;
 }
 
-h3 
-{
-font-weight:bold;
-font-size:1.0em;
-margin-top: 0em;
-margin-bottom: 0.4em;
+/* === RESPONSIVE DESIGN === */
+@media (max-width: 768px) {
+  body {
+    font-size: 15px; /* slightly smaller on tablets/phones */
+  }
+
+  #header_content li {
+    display: block;
+    margin: 0.4em 0;
+  }
+
+  #container {
+    padding: 0 0.8em;
+    max-width: 100%;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  h2 {
+    font-size: 1.1rem;
+  }
+
+  h3 {
+    font-size: 1rem;
+  }
 }
 
-p 
-{
-font-weight:normal;
-font-size:1.0em;
-margin-top:0em;
-margin-bottom:1.4em;
-text-indent:0em;
+@media (max-width: 480px) {
+  body {
+    font-size: 14px;
+  }
+
+  #title {
+    font-size: 1.4rem;
+  }
+
+  #header_content {
+    padding: 0 0.5em;
+  }
 }
-
-dd
-{
-margin:0 1.5em 0.4em 1.5em;
-padding:0;
-color:#444444;
-}
-
-/* PUBLICATIONS LIST */
-#pub
-{
-width:100%;
-list-style:none;
-margin:0;
-padding:0;
-}
-
-#pub ul, li 
-{
-list-style-type:none;
-text-indent:-1.6em;
-margin:0 0 0.4em +1.6em;
-padding:0;
-}
-
-/* LINKS PROPERTIES */
-a:link {text-decoration:none;color:#128c74;}
-a:visited {text-decoration:none;color:#14ad8f;}
-a:hover {text-decoration:underline;}
-a:active {text-decoration:none;}
-
